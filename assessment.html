@@ -2,9 +2,113 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>HTML Assessment</title>
+    <style>
+      table {
+        border-collapse: collapse;
+        width: 100%;
+      }
+   tr, th, td {
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
+    </style>
   </head>
   <body>
+    <h2>TEXT</h2>
+    <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <blockquote><em><strong>Lorem</strong>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<em></blockquote>
+    <p><strong>Lorem</strong> ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <h3>TABLE</h3>
+    <p>Scores by Quarter</p>
+    <table>
+
+
+      <tr>
+        <th rowspan="2">Team</th>
+        <th colspan="2">First Half</th>
+        <th colspan="2">Second Half</th>
+      </tr>
+      <tr>
+        <td>Q1</td>
+        <td>Q2</td>
+        <td>Q3</td>
+        <td>Q4</td>
+      <tr>
+        <th>Denver</th>
+        <td>7</td>
+        <td>3</td>
+        <td>6</td>
+        <td>9</td>
+      </tr>
+        <th>Chicago</th>
+        <td>7</td>
+        <td>3</td>
+        <td>6</td>
+        <td>10</td>
+
+    </table>
+      <h3>List</h3>
+      <ul>
+        <li><img src="broncoslogo.jpg" title="Broncos Logo" alt="Broncos Logo"><br>
+        <a href="http://www.denverbroncos.com/">Denver Broncos</a></li>
+        <li>Coach: Vance Joseph</li>
+        <li>QB</li>
+          <ol>
+            <li>Brock Osweiler</li>
+            <li>Trevor Siemian</li>
+            <li>Peyton Manning (injured)</li>
+          </ol>
+      <li><img src="bearslogo.jpg" title="Bears Logo" alt="Bears Logo"><br>
+      <a href="http://www.chicagobears.com/">Chicago Bears</a></li>
+      <li>Coach: John Fox</li>
+      <li>QB</li>
+        <ol>
+          <li>Jay Cutler</li>
+          <li>David Foles</li>
+        </ol>
+      </ul>
+
+      <h3>FORM</h3>
+
+      <form class="" action="index.html" method="post">
+      First:<input type="text">
+      Last: <input type="text">
+      </form>
+
+
+      <form>
+        <p>Favorite Sport:</p>
+        <select>
+        <option value="Football">Football</option>
+        <option value="BasketBall">Basketball</option>
+        <option value="Baseball">Baseball</option>
+        <option value="Hockey">Hockey</option>
+        <option value="Other">Other</option>
+        </select>
+
+      <br>
+
+        I have:
+        <input type="Checkbox" value="Attended">Attended
+        <input type="Checkbox" value="Played">Played
+        <input type="Checkbox" value="Coached">Coached
+        <input type="Checkbox" value="Bet on">Bet on
+        <br>
+        this sport.
+      <br>
+
+
+        For this sport I prefer the:
+        <input type="radio" value="Amatuer">Amatuer
+        <input type="radio" value="College">College
+        <input type="radio" value="Professional">Professional
+        <br>
+        <input type="submit" value="Submit Query">
+      </form>
+
+
 
   </body>
 </html>
