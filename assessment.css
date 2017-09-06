@@ -1,11 +1,10 @@
-
-
 .subjectHeader {
   color: darkblue;
   font-size: 1.5em;
 }
 .hyperLink:hover {
   background-color: pink;
+  text-decoration: none;
 }
 td {
   text-align: center;
